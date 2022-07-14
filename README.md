@@ -1,14 +1,14 @@
 # Actor - Twitter Profile Scraper
 
-## Twitter Profile scraper
-
 Since Twitter doesn't provide a good and free API, this actor should help you to retrieve data from it.
 
-The Twitter Profile scraper supports the following features:
+## Features
 
--   Scrape user detail - Scrape any profile and its information from Twitter. All the hidden data of the user will be added into each tweet.
+-   Scrape user detail - Scrape any user related information from any profile such as friends, followers, following, verified account, location, profile image, profile banner, profile URL, date of creation and so on.
 
--   Scrape tweet - You can retrieve all the tweets from any profile with all the details.
+-   Scrape tweet - You can retrieve all the tweets from any profile with all the details. Language, sensitive language, reply, quote, retweet, pinned, retweeted and all sorts of Tweet related information.
+
+- Scrape statistics - Gather all the statistical information of a tweet.
 
 ## Why using this actor?
 
