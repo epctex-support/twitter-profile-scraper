@@ -26,7 +26,6 @@ The input of this scraper should be JSON containing the list of pages on Twitter
 | -------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | startUrls            | Array   |  List of Twitter Profile URLs. You should only provide profile URLs.                                                                                                                 |
 | addUserInfo       | Boolean | (optional) This will add user information into all scraped tweets. Please keep in mind that the size of the output will increase proportionally by the user information. |
-
 | maxItems             | Integer | (optional) You can limit scraped tweets. This should be useful when you scrape a profile with too many tweets.                                                                                                |
 | proxy                | Object  | Proxy configuration                                                                                                                                                                                            |
 
