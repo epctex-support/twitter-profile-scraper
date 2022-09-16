@@ -16,7 +16,7 @@ This actor is extremely fast and optimized. It'll scrape Twitter proiles around 
 
 ## Bugs, fixes, updates and changelog
 
-This scraper is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epcsht/twitter-profile-scraper/issues).
+This scraper is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epctex/twitter-profile-scraper/issues).
 
 ## Input Parameters
 
