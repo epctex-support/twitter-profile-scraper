@@ -20,18 +20,21 @@ This scraper is under active development. If you have any feature requests you c
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on Twitter Profile Scraper that should be visited. Required fields are:
+The input of this scraper should be JSON containing the list of pages on Twitter Profile Scraper that should be visited. Possible fields are:
 
-| Field                | Type    | Description                                                                                                                                                                                                    |
-| -------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| startUrls            | Array   |  List of Twitter Profile URLs. You should only provide profile URLs.                                                                                                                 |
-| addUserInfo       | Boolean | (optional) This will add user information into all scraped tweets. Please keep in mind that the size of the output will increase proportionally by the user information. |
-| maxItems             | Integer | (optional) You can limit scraped tweets. This should be useful when you scrape a profile with too many tweets.                                                                                                |
-| proxy                | Object  | Proxy configuration                                                                                                                                                                                            |
+- `startUrls`: (Optional) (Array) List of Twitter Profile URLs. You should only provide profile URLs.
+
+- `addUserInfo`: (Optional) (Boolean) This will add user information into all scraped tweets. Please keep in mind that the size of the output will increase proportionally by the user information.
+
+- `onlyUserInfo`: (Optional) (Boolean)This option enables you to retrieve only user information and not the tweets of that user.
+
+- `maxItems`: (Optional) (Number) You can limit scraped tweets. This should be useful when you scrape a profile with too many tweets.
+
+- `proxy`: (Required) (Proxy Object) Proxy configuration.
 
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy).
 
-##### Tip
+### Tip
 
 When you want to have a scrape over a specific profile URL, just copy and paste the link as one of the **startUrl**.
 
