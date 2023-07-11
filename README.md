@@ -1,30 +1,32 @@
+[https://apify.com/epctex/twitter-profile-scraper](https://apify.com/epctex/twitter-profile-scraper?fpr=yhdrb)
+
 # Actor - Twitter Profile Scraper
 
 Since Twitter doesn't provide a good and free API, this actor should help you to retrieve data from it.
 
 ## Features
 
--   Scrape user detail - Scrape any user related information from any profile such as friends, followers, following, verified account, location, profile image, profile banner, profile URL, date of creation and so on.
+-   Scrape user detail - Scrape any user-related information from any profile such as friends, followers, following, verified account, location, profile image, profile banner, profile URL, date of creation, and so on.
 
--   Scrape tweet - You can retrieve all the tweets from any profile with all the details. Language, sensitive language, reply, quote, retweet, pinned, retweeted and all sorts of Tweet related information.
+-   Scrape tweet - You can retrieve all the tweets from any profile with all the details. Language, sensitive language, reply, quote, retweet, pinned, retweeted, and all sorts of Tweet-related information.
 
 - Scrape statistics - Gather all the statistical information of a tweet.
 
-## Why using this actor?
+## Why use this actor?
 
-This actor is extremely fast and optimized. It'll scrape Twitter proiles around 26 times faster than the other equivalent scrapers. Therefore you will consume less resources and it will be cheaper to use it.
+This actor is extremely fast and optimized. It'll scrape Twitter profiles around 26 times faster than the other equivalent scrapers. Therefore you will consume fewer resources and it will be cheaper to use it.
 
-## Bugs, fixes, updates and changelog
+## Bugs, fixes, updates, and changelog
 
 This scraper is under active development. If you have any feature requests you can create an issue from [here](https://github.com/epctex/twitter-profile-scraper/issues).
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on Twitter Profile Scraper that should be visited. Possible fields are:
+The input of this scraper should be JSON containing the list of pages on the Twitter Profile Scraper that should be visited. Possible fields are:
 
 - `startUrls`: (Optional) (Array) List of Twitter Profile URLs. You should only provide profile URLs.
 
-- `addUserInfo`: (Optional) (Boolean) This will add user information into all scraped tweets. Please keep in mind that the size of the output will increase proportionally by the user information.
+- `addUserInfo`: (Optional) (Boolean) This will add user information into all scraped tweets. Please keep in mind that the size of the output will increase proportionally to the user information.
 
 - `onlyUserInfo`: (Optional) (Boolean)This option enables you to retrieve only user information and not the tweets of that user.
 
@@ -36,11 +38,11 @@ This solution requires the use of **Proxy servers**, either your own proxy serve
 
 ### Tip
 
-When you want to have a scrape over a specific profile URL, just copy and paste the link as one of the **startUrl**.
+When you want to scrape over a specific profile URL, just copy and paste the link as one of the **startUrl**.
 
 ### Compute Unit Consumption
 
-The actor optimized to run blazing fast and scrape many as tweets as possible. Therefore, it forefronts all tweet detail requests. If actor doesn't block very often it'll scrape 100 tweets in 20 seconds with ~0.02-0.025 compute units.
+The actor is optimized to run blazing fast and scrape many tweets as possible. Therefore, it forefronts all tweet detail requests. If the actor doesn't block very often it'll scrape 100 tweets in 20 seconds with ~0.02-0.025 compute units.
 
 ### Twitter Profile Scraper Input example
 
@@ -63,13 +65,13 @@ The actor optimized to run blazing fast and scrape many as tweets as possible. T
 During the run, the actor will output messages letting you know what is going on. Each message always contains a short label specifying which page from the provided list is currently specified.
 When items are loaded from the page, you should see a message about this event with a loaded item count and total item count for each page.
 
-If you provide incorrect input to the actor, it will immediately stop with failure state and output an explanation of what is wrong.
+If you provide incorrect input to the actor, it will immediately stop with a failure state and output an explanation of what is wrong.
 
 ## Twitter Profile Scraper Export
 
 During the run, the actor stores results into a dataset. Each item is a separate item in the dataset.
 
-You can manage the results in any languague (Python, PHP, Node JS/NPM). See the FAQ or <a href="https://www.apify.com/docs/api" target="blank">our API reference</a> to learn more about getting results from this Twitter Profile actor.
+You can manage the results in any language (Python, PHP, Node JS/NPM). See the FAQ or <a href="https://www.apify.com/docs/api" target="blank">our API reference</a> to learn more about getting results from this Twitter Profile actor.
 
 ## Scraped Tweets Properties
 
@@ -602,4 +604,4 @@ The structure of each tweet in Twitter Profile Scraper looks like this:
 ```
 
 ## Contact
-Please visit us through [epctex.com](https://epctex.com) to see all the products that is available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
+Please visit us through [epctex.com](https://epctex.com) to see all the products that are available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
