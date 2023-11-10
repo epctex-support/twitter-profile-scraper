@@ -1,5 +1,3 @@
-[https://apify.com/epctex/twitter-profile-scraper](https://apify.com/epctex/twitter-profile-scraper?fpr=yhdrb)
-
 # Actor - Twitter Profile Scraper
 
 Since Twitter doesn't provide a good and free API, this actor should help you to retrieve data from it.
@@ -30,7 +28,7 @@ The input of this scraper should be JSON containing the list of pages on the Twi
 
 - `onlyUserInfo`: (Optional) (Boolean)This option enables you to retrieve only user information and not the tweets of that user.
 
-- `maxItems`: (Optional) (Number) You can limit scraped tweets. This should be useful when you scrape a profile with too many tweets.
+- `customMapFunction`: (Optional) (String) Function that takes each object's handle as an argument and returns the object with executing the function.
 
 - `proxy`: (Required) (Proxy Object) Proxy configuration.
 
@@ -51,7 +49,6 @@ The actor is optimized to run blazing fast and scrape many tweets as possible. T
   "proxy":{
     "useApifyProxy":true
   },
-  "maxItems": 10,
   "addUserInfo":true,
   "startUrls":[
     "https://twitter.com/apify"
