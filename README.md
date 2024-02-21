@@ -1,4 +1,4 @@
-[https://apify.com/epctex/twitter-profile-scraper?fpr=yhdrb](https://apify.com/epctex/twitter-profile-scraper?fpr=yhdrb)
+[https://apify.com/epctex/twitter-profile-scraper](https://apify.com/epctex/twitter-profile-scraper?fpr=yhdrb)
 
 # Actor - Twitter Profile Scraper
 
